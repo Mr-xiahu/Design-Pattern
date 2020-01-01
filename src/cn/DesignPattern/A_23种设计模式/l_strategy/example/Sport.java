@@ -1,4 +1,4 @@
-package cn.DesignPattern.A_23种设计模式.l_策略模式.example;
+package cn.DesignPattern.A_23种设计模式.l_strategy.example;
 
 /**
  * @author Xiahu

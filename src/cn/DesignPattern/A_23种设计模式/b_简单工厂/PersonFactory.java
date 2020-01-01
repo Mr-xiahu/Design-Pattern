@@ -17,7 +17,7 @@ public class PersonFactory extends AbstractFactory {
 
         try {
             person = (Person) Class.forName(c.getName()).newInstance();
-        } catch (Exception var4) {
+        } catch (Exception e) {
             System.out.println("造人失败");
         }
 
