@@ -1,4 +1,4 @@
-package cn.DesignPattern.A_23种设计模式.p_观察者模式;
+package cn.DesignPattern.A_23种设计模式.p_观察者模式.old;
 
 /**
  * @author Xiahu

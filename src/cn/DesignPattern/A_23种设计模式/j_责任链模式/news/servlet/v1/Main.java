@@ -8,6 +8,10 @@ import java.util.List;
  * @create 2020/1/7
  * @since 1.0.0
  */
+
+/**
+ * 实现Servlet doFilter方法
+ */
 public class Main {
     public static void main(String[] args) {
         Requert requert = new Requert();
@@ -66,7 +70,7 @@ class FilterChain implements Filter {
             return false;
         }
 
-        return filterChains.get(index++).doFilter(requert, responser, filterChain);
+        return filterChains.get(index++).doFilter(requert, responser, this);
     }
 }
 
