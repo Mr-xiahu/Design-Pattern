@@ -1,4 +1,4 @@
-package cn.DesignPattern.A_23种设计模式.j_责任链模式;
+package cn.DesignPattern.A_23种设计模式.j_责任链模式.old;
 
 /**
  * @author Xiahu
